@@ -4,6 +4,7 @@ import { Record, List, OrderedSet } from 'immutable'
 import firebase from 'firebase/app'
 import { createSelector } from 'reselect'
 import { fbToEntities } from './utils'
+require('firebase/database')
 
 /**
  * Constants
